@@ -1,0 +1,27 @@
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+nav ul li.active a,
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    color: #333;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  nav ul li.active a,
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
